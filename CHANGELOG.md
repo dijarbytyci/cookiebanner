@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.5.0] - 2022-05-16
+### Added
+- TYPO3 11 LTS support
+
 ## [1.4.2] - 2020-05-11
 ### Added
 - TYPO3 10 LTS support

@@ -4,25 +4,19 @@
 
 ## Features
 - [CookieConsent](https://cookieconsent.insites.com) Banner
-- TYPO3 8, 9 & TYPO3 10
+- TYPO3 11
 - full customizable
 - documentation
 
 ## Usage
 ### Installation
 
-#### Installation as extension from TYPO3 Extension Repository (TER) (recomened)
-Download and install the extension with the extension manager module.
-
-#### Manual Installation (FTP required)
-
-- Download extension via GitHub or [TYPO3-Ter](https://extensions.typo3.org/extension/cookiebanner/)
-- Go to your FTP and navigate to `/typo3conf/ext/` and upload the cookiebanner folder there
+#### Installation via composer
+`composer req dijarbytyci/cookiebanner`
 ### Minimal Setup
 
-1. Activate Extension in Extensionmanager
-2. Include the static TypoScript of the extension 
-3. Edit Preferences in the Constants-Editor
+1Include the static TypoScript of the extension 
+2Edit Preferences in the Constants-Editor
 
 ## Help supporting further development
 
@@ -36,9 +30,9 @@ Download and install the extension with the extension manager module.
 
 ### Versions and support
 
-| cookiebanner | TYPO3      | PHP       | Support/Development                  |
-| ------------ | ---------- | --------- | ------------------------------------ |
-| 1.x          | 8.7 - 10.x  | 7.0 - 7.4 | Features, Bugfixes, Security updates |
+| cookiebanner | TYPO3       | PHP       | Support/Development                  |
+| ------------ |-------------|-----------| ------------------------------------ |
+| 1.x          | 11.0 - 11.x | 7.4 - 8.0 | Features, Bugfixes, Security updates |
 
 ### Changelog
 
